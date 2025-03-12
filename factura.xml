@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fe:Facturae xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:fe="http://www.facturae.es/Facturae/2009/v3.2/Facturae">
+    <FileHeader>
+        <SchemaVersion>3.2</SchemaVersion>
+        <Modality>I</Modality>
+        <InvoiceIssuerType>EM</InvoiceIssuerType>
+        <Batch>
+            <BatchIdentifier>0000000000B19</BatchIdentifier>
+            <InvoicesCount>1</InvoicesCount>
+            <TotalInvoicesAmount>
+                <TotalAmount>1500.00</TotalAmount>
+            </TotalInvoicesAmount>
+            <TotalOutstandingAmount>
+                <TotalAmount>1500.00</TotalAmount>
+            </TotalOutstandingAmount>
+            <TotalExecutableAmount>
+                <TotalAmount>1500.00</TotalAmount>
+            </TotalExecutableAmount>
+            <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
+        </Batch>
+    </FileHeader>
+    <Parties>
+        <SellerParty>
+            <TaxIdentification>
+                <PersonTypeCode>J</PersonTypeCode>
+                <ResidenceTypeCode>R</ResidenceTypeCode>
+                <TaxIdentificationNumber>A12345678</TaxIdentificationNumber>
+            </TaxIdentification>
+            <LegalEntity>
+                <CorporateName>Tech Store SA</CorporateName>
+                <TradeName>TechStore</TradeName>
+                <AddressInSpain>
+                    <Address>C/ Tecnología 45</Address>
+                    <PostCode>28050</PostCode>
+                    <Town>Madrid</Town>
+                    <Province>Madrid</Province>
+                    <CountryCode>ESP</CountryCode>
+                </AddressInSpain>
+            </LegalEntity>
+        </SellerParty>
+        <BuyerParty>
+            <TaxIdentification>
+                <PersonTypeCode>F</PersonTypeCode>
+                <ResidenceTypeCode>E</ResidenceTypeCode>
+                <TaxIdentificationNumber>0000000000C</TaxIdentificationNumber>
+            </TaxIdentification>
+            <Individual>
+                <Name>Pedro</Name>
+                <FirstSurname>García</FirstSurname>
+                <OverseasAddress>
+                    <Address>Avenida Principal 1234</Address>
+                    <PostCodeAndTown>12345 Buenos Aires</PostCodeAndTown>
+                    <Province>Capital Federal</Province>
+                    <CountryCode>ARG</CountryCode>
+                </OverseasAddress>
+            </Individual>
+        </BuyerParty>
+    </Parties>
+    <Invoices>
+        <Invoice>
+            <InvoiceHeader>
+                <InvoiceNumber>19</InvoiceNumber>
+                <InvoiceSeriesCode>IPHN</InvoiceSeriesCode>
+                <InvoiceDocumentType>FC</InvoiceDocumentType>
+                <InvoiceClass>OO</InvoiceClass>
+            </InvoiceHeader>
+            <InvoiceIssueData>
+                <IssueDate>2025-03-12</IssueDate>
+                <InvoiceCurrencyCode>EUR</InvoiceCurrencyCode>
+                <LanguageName>es</LanguageName>
+            </InvoiceIssueData>
+            <Items>
+                <InvoiceLine>
+                    <ItemDescription>iPhone 14 Pro</ItemDescription>
+                    <Quantity>5.0</Quantity>
+                    <UnitOfMeasure>01</UnitOfMeasure>
+                    <UnitPriceWithoutTax>1200.00</UnitPriceWithoutTax>
+                    <TotalCost>6000.00</TotalCost>
+                    <GrossAmount>6000.00</GrossAmount>
+                </InvoiceLine>
+            </Items>
+        </Invoice>
+    </Invoices>
+</fe:Facturae>

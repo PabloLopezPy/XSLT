@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto de Factura Electrónica</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "San Francisco", Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #86b982;
+            color: #1d1d1f;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header img {
+            width: 50px;
+            height: auto;
+        }
+        h1 {
+            text-align: center;
+            font-weight: 600;
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgb(190, 219, 134);
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        p {
+            text-align: center;
+            font-size: 16px;
+            color: #6e6e73;
+        }
+
+        .section-title {
+            font-size: 20px;
+            font-weight: 600;
+            background: #f5f5f7;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .link-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .link-list li {
+            background: #fff;
+            padding: 12px;
+            border-radius: 8px;
+            margin: 8px 0;
+            transition: all 0.3s ease-in-out;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .link-list li:hover {
+            background: #e8e8ed;
+        }
+
+        .link-list a {
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: 500;
+            color: #0071e3;
+            transition: color 0.3s;
+        }
+
+        .link-list a:hover {
+            color: #0056b3;
+        }
+
+        .file-type {
+            font-size: 14px;
+            color: #86868b;
+            font-style: italic;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #6e6e73;
+        }
+
+        .footer a {
+            color: #0071e3;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple Logo">
+    </div>
+    <div class="container">
+        <h1>XSLT FACTURAS</h1>
+        <p>Selecciona uno de los siguientes archivos para ver su contenido o el resultado de la transformación:</p>
+        
+        <div class="section-title">FACTURA IPADS:</div>
+        <ul class="link-list">
+            <li>
+                <a href="factura1.xml" target="_blank">XML de Factura iPads</a>
+                <span class="file-type">(XML)</span>
+            </li>
+            <li>
+                <a href="transformacion1.xslt" target="_blank">XSLT de Factura iPads</a>
+                <span class="file-type">(XSLT)</span>
+            </li>
+            <li>
+                <a href="factura1.html" target="_blank">HTML de Factura iPads (Resultado de la transformación)</a>
+                <span class="file-type">(HTML)</span>
+            </li>
+        </ul>
+
+        <div class="section-title">FACTURA IPHONES:</div>
+        <ul class="link-list">
+            <li>
+                <a href="factura.xml" target="_blank">XML de Factura iPhones</a>
+                <span class="file-type">(XML)</span>
+            </li>
+            <li>
+                <a href="transformacion.xslt" target="_blank">XSLT de Factura iPhones</a>
+                <span class="file-type">(XSLT)</span>
+            </li>
+            <li>
+                <a href="factura.html" target="_blank">HTML de Factura iPhones (Resultado de la transformación)</a>
+                <span class="file-type">(HTML)</span>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
+
+

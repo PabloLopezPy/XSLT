@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fe:Invoice xmlns:fe="http://www.facturae.es/Facturae/2009/v3.2/Facturae">
+    <fe:InvoiceHeader>
+        <fe:InvoiceNumber>FAC98765</fe:InvoiceNumber>
+        <fe:InvoiceIssueData>
+            <fe:IssueDate>2025-03-01</fe:IssueDate>
+        </fe:InvoiceIssueData>
+    </fe:InvoiceHeader>
+    <fe:SellerParty>
+        <fe:LegalEntity>
+            <fe:CorporateName>Apple Inc.</fe:CorporateName>
+            <fe:AddressInSpain>
+                <fe:Address>Apple Park, 1 Infinite Loop</fe:Address>
+                <fe:Town>Cupertino</fe:Town>
+                <fe:Province>California</fe:Province>
+            </fe:AddressInSpain>
+        </fe:LegalEntity>
+        <fe:TaxIdentification>
+            <fe:TaxIdentificationNumber>US12345678</fe:TaxIdentificationNumber>
+        </fe:TaxIdentification>
+    </fe:SellerParty>
+    <fe:BuyerParty>
+        <fe:Individual>
+            <fe:Name>Ana</fe:Name>
+            <fe:FirstSurname>Gómez</fe:FirstSurname>
+        </fe:Individual>
+        <fe:TaxIdentification>
+            <fe:TaxIdentificationNumber>ESX12387654</fe:TaxIdentificationNumber>
+        </fe:TaxIdentification>
+    </fe:BuyerParty>
+    <fe:Items>
+        <fe:InvoiceLine>
+            <fe:ItemDescription>iPad Pro 12.9"</fe:ItemDescription>
+            <fe:Quantity>1</fe:Quantity>
+            <fe:UnitPriceWithoutTax>1099.00</fe:UnitPriceWithoutTax>
+            <fe:TotalCost>1099.00</fe:TotalCost>
+        </fe:InvoiceLine>
+        <fe:InvoiceLine>
+            <fe:ItemDescription>iPad Air 10.9"</fe:ItemDescription>
+            <fe:Quantity>2</fe:Quantity>
+            <fe:UnitPriceWithoutTax>599.00</fe:UnitPriceWithoutTax>
+            <fe:TotalCost>1198.00</fe:TotalCost>
+        </fe:InvoiceLine>
+    </fe:Items>
+    <fe:InvoiceTotals>
+        <fe:InvoiceTotal>2297.00</fe:InvoiceTotal>
+    </fe:InvoiceTotals>
+</fe:Invoice>
